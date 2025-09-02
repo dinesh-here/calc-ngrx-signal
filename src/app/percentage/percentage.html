@@ -1,0 +1,18 @@
+<h2>Percentage Calculator</h2>
+<div class="percentage-calc-container">
+    <p>
+        <label>Percentage (%)</label>
+        <input type="number" min="0" max="100" step="any" [(ngModel)]="store.percentage" name="percentage"
+            placeholder="Enter percentage">
+        <label>Of Amount
+        </label>
+        <input type="number" min="0" step="any" [(ngModel)]="store.amount" name="amount" placeholder="Enter amount">
+    </p>
+
+    <p>
+        <label>Result
+        </label>
+        <input type="number" [value]="store.result()" disabled>
+    </p>
+
+</div>

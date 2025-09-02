@@ -1,0 +1,17 @@
+<h2>Percentage increase and decrease </h2>
+<div class="percentage-calc-container">
+    <p>
+        <label>From </label>
+        <input type="number" min="0" max="100" step="any" [(ngModel)]="store.from" name="from"
+            placeholder="Enter from amount">
+        <label>To
+        </label>
+        <input type="number" min="0" step="any" [(ngModel)]="store.to" name="amount" placeholder="Enter To">
+    </p>
+
+    <p>
+        <label>Result in %
+        </label>
+        <input type="number" [value]="store.result()" disabled>
+    </p>
+</div>
