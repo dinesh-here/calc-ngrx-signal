@@ -35,7 +35,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/ calc-ngrx-signal/",
+              "baseHref": "/calc-ngrx-signal/",
               "outputPath": {
                 "base": "docs",
                 "browser": ""
